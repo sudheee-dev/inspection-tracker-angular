@@ -1,0 +1,16 @@
+<h2>Inspection Form</h2>
+<form>
+  <label>Item:</label>
+  <input type="text" [(ngModel)]="itemName" name="item" /><br/><br/>
+
+  <label>Status:</label>
+  <select [(ngModel)]="status" name="status">
+    <option value="pass">Pass</option>
+    <option value="fail">Fail</option>
+  </select><br/><br/>
+
+  <label>Comments:</label>
+  <textarea [(ngModel)]="comments" name="comments"></textarea><br/><br/>
+
+  <button type="button" (click)="submitForm()">Submit</button>
+</form>
