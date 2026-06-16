@@ -1,15 +1,26 @@
-# Inspection Tracker App
+# Inspection Tracker — Angular
 
-A simple Angular app to track inspection forms in manufacturing.
+> A manufacturing-grade inspection form tracker built with Angular.
 
-## Features
-- Create/edit inspection forms
-- Toggle Pass/Fail status
-- Save technician comments
+## ✨ Features
+- Create and edit inspection records
+- Toggle Pass / Fail status per inspection
+- Technician comment system
+- Data persisted via Local Storage
 
-## Tech Stack
-- Angular
-- HTML/CSS
-- Local Storage (no backend for now)
+## 🛠 Tech Stack
+`Angular 17` · `TypeScript` · `HTML/CSS` · `Local Storage`
 
-## How to Run
+## 🚀 Getting Started
+```bash
+git clone https://github.com/sudheee-dev/inspection-tracker-angular.git
+cd inspection-tracker-angular
+npm install
+ng serve
+```
+Open http://localhost:4200
+
+## 📌 Upcoming
+- [ ] Backend integration (Node.js + MySQL)
+- [ ] User authentication
+- [ ] Export reports as PDF
